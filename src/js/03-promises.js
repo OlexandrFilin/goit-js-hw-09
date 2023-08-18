@@ -6,7 +6,6 @@ form.addEventListener('submit', onClick);
 function onClick(e) {
   e.preventDefault();
   for (let i = 1; i <= form.amount.value; i += 1) {
-    const position = i;
     const delayFirst = Number(form.delay.value);
     const delay = delayFirst + Number(form.step.value) * (i - 1);
     createPromise(i, delay);
