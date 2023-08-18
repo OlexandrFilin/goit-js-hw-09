@@ -15,6 +15,7 @@ const elementsTimer = {
 btn.disabled = true;
 const currentDate = new Date();
 let selectdDate = 0;
+
 const options = {
   enableTime: true,
   time_24hr: true,
